@@ -1,6 +1,8 @@
 {
   "usingComponents": {
-    "searchInput":"../../components/searchInput/searchInput",
-   "productCard":"../../components/productCard/productCard"
+    "searchInput": "../../components/searchInput/searchInput",
+    "productCard": "../../components/productCard/productCard",
+    "van-tabbar": "@vant/weapp/tabbar/index",
+    "van-tabbar-item": "@vant/weapp/tabbar-item/index"
   }
 }

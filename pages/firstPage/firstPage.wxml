@@ -1,36 +1,35 @@
 <!--pages/firstPage/firstPage.wxml-->
 <view-scroll scroll-y="true" style="height:{{scrollHeight}}">
   <view class="swiper-container">
-  <searchInput class="search"></searchInput>
-  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{duration}}" current="{{swiperCurrent}}" bindchange="swiperChange" class="swiper">
-    <block wx:for="{{imgUrls}}" wx:key="*this">
-      <swiper-item>
-        <image mode="widthFix" src="{{item}}" class="img" bindtap="swipclick" />
-      </swiper-item>
-    </block>
-  </swiper> 
-</view>
-<view class="mangerWrap">
-<view class="title">
-<text>我的专属客户经理</text>
-</view>
-<view class="managerInfo"></view>
-</view>
+    <searchInput class="search"></searchInput>
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{duration}}" current="{{swiperCurrent}}" bindchange="swiperChange" class="swiper">
+      <block wx:for="{{imgUrls}}" wx:key="*this">
+        <swiper-item>
+          <image mode="widthFix" src="{{item}}" class="img" bindtap="swipclick" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="mangerWrap">
+    <view class="title">
+      <text>我的专属客户经理</text>
+    </view>
+    <view class="managerInfo"></view>
+  </view>
 
-<view class="proWrap">
-<view class="title">
-<text>推荐产品</text>
-<text class="proMore" bindtap="viewMore">更多</text>
-</view>
-<view class="proContent">
-<swiper indicator-dots="{{indicatorDots}}">
-  <swiper-item wx:for="{{productList}}" wx:key="index">
-<view class="produtCard" > 
-<productCard wx:for="{{item}}"  wx:for-item="prod"  wx:key="{{prod.name}}" itemTitle="{{prod.name}}" itemTip="{{prod.value}}" class="card"></productCard>
-</view>
-</swiper-item>
-</swiper>
-</view>
-</view>
+  <view class="proWrap">
+    <view class="title">
+      <text>推荐产品</text>
+      <text class="proMore" bindtap="viewMore">更多</text>
+    </view>
+    <view class="proContent">
+      <swiper indicator-dots="{{indicatorDots}}">
+        <swiper-item wx:for="{{productList}}" wx:key="index">
+          <view class="produtCard">
+            <productCard wx:for="{{item}}" wx:for-item="prod" wx:key="{{prod.name}}" itemTitle="{{prod.name}}" itemTip="{{prod.value}}" class="card"></productCard>
+          </view>
+        </swiper-item>
+      </swiper>
+    </view>
+  </view>
 </view-scroll>
-

@@ -15,33 +15,32 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
+    "custom": true,
+    "color": "#000000",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#000000",
     "list": [
       {
-        "pagePath": "pages/firstPage/firstPage",
-        "text": "首页",
-        "iconPath": "icon/_home.png",
-        "selectedIconPath": "icon/home.png"
-      },
-      {
-        "pagePath": "pages/product/product",
-        "text": "产品",
-        "iconPath": "icon/_product.png",
-        "selectedIconPath": "icon/product.png"
-      },
-      {
-        "pagePath": "pages/incomService/IncomService",
-        "text": "金融服",
-        "iconPath": "icon/_incom.png",
-        "selectedIconPath": "icon/incom.png"
-      },
-      {
-        "pagePath": "pages/mine/mine",
-        "text": "我的",
-        "iconPath": "icon/_mine.png",
-        "selectedIconPath": "icon/mine.png"
-      }
+        "pagePath":"pages/firstPage/firstPage",
+        "text":"首页"
+       },
+       {
+        "pagePath":"pages/product/product",
+        "text":"产品"
+       },
+       {
+        "pagePath":"pages/incomService/IncomService",
+        "text":"金融服务"
+       },
+       {
+        "pagePath":"pages/mine/mine",
+        "text":"我的"
+       }
     ],
-    "selectedColor": "#1296db"
+    "usingComponents": {
+      "van-tabbar": "@vant/weapp/tabbar/index",
+      "van-tabbar-item": "@vant/weapp/tabbar-item/index"
+    }
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
