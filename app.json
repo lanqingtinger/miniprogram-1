@@ -5,7 +5,8 @@
     "pages/incomService/IncomService",
     "pages/mine/mine",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/search/search.js"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -13,35 +14,35 @@
     "navigationBarTitleText": "点点",
     "navigationBarTextStyle": "black"
   },
-  "tabBar":{
-    "list":[{
-      "pagePath":"pages/firstPage/firstPage",
-      "text":"首页",
-      "iconPath":"icon/_home.png",
-      "selectedIconPath":"icon/home.png"
-    },  
-    {
-      "pagePath":"pages/product/product",
-      "text":"产品",
-      "iconPath":"icon/_product.png",
-      "selectedIconPath":"icon/product.png"
-    },
-    {
-      "pagePath":"pages/incomService/IncomService",
-      "text":"金融服",
-      "iconPath":"icon/_incom.png",
-      "selectedIconPath":"icon/incom.png"
-    },
-    {
-      "pagePath":"pages/mine/mine",
-      "text":"我的",
-      "iconPath":"icon/_mine.png",
-      "selectedIconPath":"icon/mine.png"
-    }
-  ],
-  "selectedColor":"#1296db"
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/firstPage/firstPage",
+        "text": "首页",
+        "iconPath": "icon/_home.png",
+        "selectedIconPath": "icon/home.png"
+      },
+      {
+        "pagePath": "pages/product/product",
+        "text": "产品",
+        "iconPath": "icon/_product.png",
+        "selectedIconPath": "icon/product.png"
+      },
+      {
+        "pagePath": "pages/incomService/IncomService",
+        "text": "金融服",
+        "iconPath": "icon/_incom.png",
+        "selectedIconPath": "icon/incom.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "icon/_mine.png",
+        "selectedIconPath": "icon/mine.png"
+      }
+    ],
+    "selectedColor": "#1296db"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json",
-  "lazyCodeLoading": "requiredComponents"
+  "sitemapLocation": "sitemap.json"
 }

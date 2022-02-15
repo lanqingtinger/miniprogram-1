@@ -1,0 +1,4 @@
+<view class="cardLayout">
+<view class="itemTitle">{{itemTitle}}</view>
+<view class="itemTip">{{itemTip}}</view>
+</view>

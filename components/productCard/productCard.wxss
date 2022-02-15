@@ -1,0 +1,6 @@
+.cardLayout{
+ padding:30rpx;
+}
+.itemTitle{
+  margin-bottom: 10rpx;
+}
