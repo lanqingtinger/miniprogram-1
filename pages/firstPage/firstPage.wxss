@@ -45,7 +45,7 @@ width:90%
 }
 .proContent{
   width:100%;
-  height:500rpx;
+  height:300rpx;
 }
 .produtCard{
   /* width:100%; */
@@ -67,3 +67,6 @@ width:90%
 /* .produtCard{ */
   /* margin-top:20rpx; */
 /* } */
+.proSwiper{
+  height:350rpx;
+}

@@ -23,7 +23,7 @@
       <text class="proMore" bindtap="viewMore">更多</text>
     </view>
     <view class="proContent">
-      <swiper indicator-dots="{{indicatorDots}}">
+      <swiper class="proSwiper" indicator-dots="{{indicatorDots}}">
         <swiper-item wx:for="{{productList}}" wx:key="index">
           <view class="produtCard">
             <productCard wx:for="{{item}}" wx:for-item="prod" wx:key="{{prod.name}}" itemTitle="{{prod.name}}" itemTip="{{prod.value}}" class="card"></productCard>
@@ -33,3 +33,19 @@
     </view>
   </view>
 </view-scroll>
+
+<view class="proWrap">
+  <view class="title">
+    <text>推荐产品</text>
+    <text class="proMore" bindtap="viewMore">更多</text>
+  </view>
+  <view class="proContent">
+    <swiper indicator-dots="{{indicatorDots}}">
+      <swiper-item wx:for="{{productList}}" wx:key="index">
+        <view class="produtCard">
+          <productCard wx:for="{{item}}" wx:for-item="prod" wx:key="{{prod.name}}" itemTitle="{{prod.name}}" itemTip="{{prod.value}}" class="card"></productCard>
+        </view>
+      </swiper-item>
+    </swiper>
+  </view>
+</view>
