@@ -32,6 +32,23 @@ Page({
       { "name": "page2sss", "value": "value2" },
       { "name": "page3sss", "value": "value3" },
       { "name": "page4ssss", "value": "value4" }]
+    ],
+    planList:[
+      {
+        "imgSrc":"https://s4.ax1x.com/2022/02/11/HaV1zT.jpg",
+        "planTheme":"跨行资金解决方案",
+        "planDescrib":"解决您的跨行资金问题"
+      },
+      {
+        "imgSrc":"https://s4.ax1x.com/2022/02/11/HaV1zT.jpg",
+        "planTheme":"智慧园区解决方案",
+        "planDescrib":"智慧园区解决方案"
+      },
+      {
+        "imgSrc":"https://s4.ax1x.com/2022/02/11/HaV1zT.jpg",
+        "planTheme":"制造业行业解决方案",
+        "planDescrib":"制造业行业解决方案"
+      }
     ]
   },
   //轮播图的切换事件

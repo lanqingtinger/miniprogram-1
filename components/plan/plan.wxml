@@ -1,0 +1,7 @@
+<view class="listWrap" bindtap="viewPlan" data-plan="{{planTheme}}">
+<view class="planPic"><image class="planImg" mode="widthFix" src="{{imgSrc}}"/></view>
+<view class="planText">
+<view class="planThem">{{planTheme}}</view>
+<view class="planDescrib">{{planDescrib}}</view>
+</view>
+</view>
