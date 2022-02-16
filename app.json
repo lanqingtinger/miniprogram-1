@@ -6,7 +6,8 @@
     "pages/mine/mine",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/search/search.js"
+    "pages/search/search.js",
+    "pages/incomResolvePlan/incomResolvePlan"
   ],
   "window": {
     "backgroundTextStyle": "light",
