@@ -1,2 +1,33 @@
 <!--pages/mine/mine.wxml-->
-<text>pages/mine/mine.wxml</text>
+<view>
+    <view class="mine-profile">
+        <van-row>
+            <van-col span='5'>
+                <van-image round width="3rem" height="3rem" fit="cover" src="https://img.yzcdn.cn/vant/cat.jpeg" />
+            </van-col>
+            <van-col span='19'>
+                <view>
+                    <text>李天霸</text>
+                    <van-tag round type="warning" style="margin-left: 10px"><span class="tag-text-style">认证行员</span></van-tag>
+                </view>
+                <text class="time-text-style">上次登录 2022-01-12</text>
+            </van-col>
+        </van-row>
+        <view class="bar">
+            <view class="notice-text-style">偷偷告诉你，每天登陆有更多惊喜哦～
+            </view>
+            <view class="notice-arrow-style">
+                <van-icon name="arrow" />
+            </view>
+            <!-- <van-config-provider theme-vars="{{ themeVars }}">
+                <van-notice-bar mode="link" scrollable="{{ false }}" text="偷偷告诉你，每天登陆有更多惊喜哦～" background="#1989fa" color="#ffffff" />
+            </van-config-provider> -->
+        </view>
+    </view>
+    <view>
+        <van-cell title="我的信息" is-link icon="description"/>
+        <van-cell title="我的消息" is-link icon="chat-o"/>
+        <van-cell title="我的专属客服" is-link icon="service-o"/>
+        <van-cell title="我附近的网点" is-link icon="location-o"/>
+    </view>
+</view>
