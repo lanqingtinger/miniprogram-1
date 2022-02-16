@@ -17,35 +17,29 @@
     <view class="managerInfo"></view>
   </view>
 
-  <view class="proWrap">
-    <view class="title">
-      <text>推荐产品</text>
-      <text class="proMore" bindtap="viewMore">更多</text>
-    </view>
-    <view class="proContent">
-      <swiper class="proSwiper" indicator-dots="{{indicatorDots}}">
-        <swiper-item wx:for="{{productList}}" wx:key="index">
-          <view class="produtCard">
-            <productCard wx:for="{{item}}" wx:for-item="prod" wx:key="{{prod.name}}" itemTitle="{{prod.name}}" itemTip="{{prod.value}}" class="card"></productCard>
-          </view>
-        </swiper-item>
-      </swiper>
-    </view>
-  </view>
+<view class="proWrap">
+<view class="title">
+<text>推荐产品</text>
+<text class="proMore" bindtap="viewMore">更多</text>
+</view>
+<view class="proContent">
+<swiper class="proSwiper" indicator-dots="{{indicatorDots}}">
+  <swiper-item wx:for="{{productList}}" wx:key="index">
+<view class="produtCard" > 
+<productCard wx:for="{{item}}"  wx:for-item="prod"  wx:key="{{prod.name}}" itemTitle="{{prod.name}}" itemTip="{{prod.value}}" class="card"></productCard>
+</view>
+</swiper-item>
+</swiper>
+</view>
+
+<view class="planWrap">
+ <view class="planTitle">
+<text>行业解决方案</text>
+</view>
+<view class="planList">
+<plan wx:for="{{planList}}" imgSrc="{{item.imgSrc}}" planTheme="{{item.planTheme}}" planDescrib="{{item.planDescrib}}" wx:key="index" class="indResPlan" ></plan>
+</view>
+</view>
+</view>
 </view-scroll>
 
-<view class="proWrap">
-  <view class="title">
-    <text>推荐产品</text>
-    <text class="proMore" bindtap="viewMore">更多</text>
-  </view>
-  <view class="proContent">
-    <swiper indicator-dots="{{indicatorDots}}">
-      <swiper-item wx:for="{{productList}}" wx:key="index">
-        <view class="produtCard">
-          <productCard wx:for="{{item}}" wx:for-item="prod" wx:key="{{prod.name}}" itemTitle="{{prod.name}}" itemTip="{{prod.value}}" class="card"></productCard>
-        </view>
-      </swiper-item>
-    </swiper>
-  </view>
-</view>

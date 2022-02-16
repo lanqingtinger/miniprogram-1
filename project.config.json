@@ -1,67 +1,67 @@
 {
-    "description": "项目配置文件",
-    "packOptions": {
-        "ignore": []
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": true,
+    "scopeDataCheck": false,
+    "coverView": true,
+    "es6": false,
+    "postcss": true,
+    "compileHotReLoad": false,
+    "lazyloadPlaceholderEnable": false,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "autoAudits": false,
+    "newFeature": false,
+    "uglifyFileName": false,
+    "uploadWithSourceMap": true,
+    "useIsolateContext": false,
+    "nodeModules": false,
+    "enhance": true,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": true,
+    "showShadowRootInWxmlPanel": true,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "disableUseStrict": false,
+    "ignoreUploadUnusedFiles": true,
+    "minifyWXML": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.17.0",
+  "appid": "wx07fecee600feb709",
+  "projectname": "miniprogram-1",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "scripts": {},
+  "staticServerOptions": {
+    "baseURL": "",
+    "servePath": ""
+  },
+  "isGameTourist": false,
+  "condition": {
+    "search": {
+      "list": []
     },
-    "setting": {
-        "urlCheck": true,
-        "scopeDataCheck": false,
-        "coverView": true,
-        "es6": false,
-        "postcss": true,
-        "compileHotReLoad": false,
-        "lazyloadPlaceholderEnable": false,
-        "preloadBackgroundData": false,
-        "minified": true,
-        "autoAudits": false,
-        "newFeature": false,
-        "uglifyFileName": false,
-        "uploadWithSourceMap": true,
-        "useIsolateContext": false,
-        "nodeModules": false,
-        "enhance": true,
-        "useMultiFrameRuntime": true,
-        "useApiHook": true,
-        "useApiHostProcess": true,
-        "showShadowRootInWxmlPanel": true,
-        "packNpmManually": false,
-        "packNpmRelationList": [],
-        "minifyWXSS": true,
-        "disableUseStrict": false,
-        "ignoreUploadUnusedFiles": true,
-        "minifyWXML": true
+    "conversation": {
+      "list": []
     },
-    "compileType": "miniprogram",
-    "libVersion": "2.17.0",
-    "appid": "wx07fecee600feb709",
-    "projectname": "miniprogram-1",
-    "debugOptions": {
-        "hidedInDevtools": []
+    "game": {
+      "list": []
     },
-    "scripts": {},
-    "staticServerOptions": {
-        "baseURL": "",
-        "servePath": ""
+    "plugin": {
+      "list": []
     },
-    "isGameTourist": false,
-    "condition": {
-        "search": {
-            "list": []
-        },
-        "conversation": {
-            "list": []
-        },
-        "game": {
-            "list": []
-        },
-        "plugin": {
-            "list": []
-        },
-        "gamePlugin": {
-            "list": []
-        },
-        "miniprogram": {
-            "list": []
-        }
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": []
     }
+  }
 }
