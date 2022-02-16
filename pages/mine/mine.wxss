@@ -1,1 +1,43 @@
 /* pages/mine/mine.wxss */
+.mine-profile {
+    margin: 1rem 1rem;
+}
+
+.tag-text-style {
+    font-size: 10px;
+    margin: 2px 5px;
+}
+
+.time-text-style {
+    font-size: 12px;
+    position: relative;
+    top: 5px
+}
+
+.notice-text-style {
+    font-size: 10px;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    margin-top: -7px;
+    margin-left: 7px
+}
+
+.notice-arrow-style {
+    font-size: 10px;
+    top: 15px;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    margin-top: -7px;
+    right: 10px;
+}
+
+.bar {
+    margin-top: 15px;
+    width: 100%;
+    height: 30px;
+    background-color: #5daaf7;
+    border-radius: 5px;
+    position: relative;
+}

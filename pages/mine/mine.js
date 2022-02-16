@@ -5,7 +5,11 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    themeVars: {
+      noticeBarHeight: '30px',
+      noticeBarFontSize: '10px',
+      noticeBarIconSize: '12px'
+    }
   },
 
   /**
@@ -28,10 +32,10 @@ Page({
   onShow: function () {
     if (typeof this.getTabBar === "function" && this.getTabBar()) {
       this.getTabBar().setData({
-      // 当前页面的 tabBar 索引
-      active: 3
+        // 当前页面的 tabBar 索引
+        active: 3
       })
-     }
+    }
   },
 
   /**
