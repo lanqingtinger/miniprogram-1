@@ -1,2 +1,19 @@
-<!--pages/incomResolvePlan/incomResolvePlan.wxml-->
-<text>pages/incomResolvePlan/incomResolvePlan.wxml</text>
+<view class="wrap">
+<view-scrool  scroll-y="true" style="height:{{scrollHeight}}">
+  <view class="title">
+    <text>{{resolvePlan.title}}</text>
+  </view>
+  <!-- 白色区域 -->
+  <view class="mainText">
+    <view class="mainTop">
+    <!-- 第一段 -->
+      <view>{{resolvePlan.preface}}
+      </view>
+      <view class="outLine">{{resolvePlan.outLine}}</view>
+      <view wx:for="{{resolvePlan.mainBody}}">
+      
+      </view>
+    </view>
+  </view>
+</view-scrool>
+</view>

@@ -4,6 +4,8 @@
     "productCard": "../../components/productCard/productCard",
     "van-tabbar": "@vant/weapp/tabbar/index",
     "van-tabbar-item": "@vant/weapp/tabbar-item/index",
-    "plan": "../../components/plan/plan"
+    "plan": "../../components/plan/plan",
+    "van-button":"@vant/weapp/button/index",
+    "van-icon":"@vant/weapp/icon/index"
   }
 }

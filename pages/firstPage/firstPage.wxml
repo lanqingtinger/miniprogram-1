@@ -3,7 +3,7 @@
   <view class="swiper-container">
     <searchInput class="search"></searchInput>
     <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{duration}}" current="{{swiperCurrent}}" bindchange="swiperChange" class="swiper">
-      <block wx:for="{{imgUrls}}" wx:key="*this">
+      <block wx:for="{{imgUrls}}" wx:key="index">
         <swiper-item>
           <image mode="widthFix" src="{{item}}" class="img" bindtap="swipclick" />
         </swiper-item>
@@ -14,7 +14,22 @@
     <view class="title">
       <text>我的专属客户经理</text>
     </view>
-    <view class="managerInfo"></view>
+    <view class="managerInfo">
+    <view class="avatar">
+      <van-icon name="manager-o" size="68" color="#1989fa"/>
+    </view>
+    <view class="connectInfo">
+    <view class="managerName">
+    <text class="namePhone nameIdText">{{user.name}}</text>
+    <text class="namePhone nameIdText">{{user.teamId}}</text>
+    <van-icon class="namePhone" name="phone-o" color="#1989fa" size="17" bindtap="callTell"/>
+    <van-icon name="chat-o" color="#1989fa" size="17"/>    
+    </view>
+    <view class="workAdd">
+    <text>{{user.comAddress}}</text>
+    </view>
+    </view>
+    </view>
   </view>
 
 <view class="proWrap">
@@ -26,20 +41,20 @@
 <swiper class="proSwiper" indicator-dots="{{indicatorDots}}">
   <swiper-item wx:for="{{productList}}" wx:key="index">
 <view class="produtCard" > 
-<productCard wx:for="{{item}}"  wx:for-item="prod"  wx:key="{{prod.name}}" itemTitle="{{prod.name}}" itemTip="{{prod.value}}" class="card"></productCard>
+<productCard wx:for="{{item}}"  wx:for-item="prod"  wx:key="id" itemTitle="{{prod.name}}" itemTip="{{prod.value}}" class="card"></productCard>
 </view>
 </swiper-item>
 </swiper>
 </view>
-
+</view>
 <view class="planWrap">
  <view class="planTitle">
 <text>行业解决方案</text>
 </view>
 <view class="planList">
-<plan wx:for="{{planList}}" imgSrc="{{item.imgSrc}}" planTheme="{{item.planTheme}}" planDescrib="{{item.planDescrib}}" wx:key="index" class="indResPlan" ></plan>
+<plan wx:for="{{planList}}" imgSrc="{{item.imgSrc}}" planTheme="{{item.planTheme}}" planDescrib="{{item.planDescrib}}" wx:key="id" class="indResPlan" ></plan>
 </view>
 </view>
-</view>
+<view style="height:{{zwHeight}}"></view>
 </view-scroll>
 

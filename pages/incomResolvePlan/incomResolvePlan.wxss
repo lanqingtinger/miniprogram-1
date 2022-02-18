@@ -1,1 +1,32 @@
-/* pages/incomResolvePlan/incomResolvePlan.wxss */
+.wrap{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:url("https://s4.ax1x.com/2022/02/11/HaV1zT.jpg");
+  background-size:cover;
+  z-index:-1
+}
+.mainText{
+  width:90%;
+  height:100%;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding:10px;
+}
+.title{
+  width:95%;
+  height:60px;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+  color:#fff;
+}
+.outLine{
+  color:#000;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top:20px
+}
