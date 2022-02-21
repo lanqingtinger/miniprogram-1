@@ -28,6 +28,6 @@
         <van-cell title="我的信息" is-link icon="description"/>
         <van-cell title="我的消息" is-link icon="chat-o"/>
         <van-cell title="我的专属客服" is-link icon="service-o"/>
-        <van-cell title="我附近的网点" is-link icon="location-o"/>
+        <van-cell title="我附近的网点" onclick="getNearLocation" is-link icon="location-o"/>
     </view>
 </view>

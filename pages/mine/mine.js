@@ -12,6 +12,13 @@ Page({
     }
   },
 
+  // 获取附近网点
+  getNearLocation(){
+    console.log("getNearLocation");
+    wx.redirectTo({
+      url: '/pages/mine/map/map',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

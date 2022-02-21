@@ -1,0 +1,8 @@
+<!-- 地图 -->
+<view>
+    <van-nav-bar title="我附近的网点" left-text="返回" left-arrow bind:click-left="onClickLeft" custom-style="padding: 0"/>
+<view class="section map_container">
+    <map id="locationMap" longitude="{{longitude}}" latitude="{{latitude}}" scale="16" show-location="true" style="width: 100%;  height: {{mapHeight}}rpx" bindregionchange="regionChange">
+    </map>
+</view>
+</view>
