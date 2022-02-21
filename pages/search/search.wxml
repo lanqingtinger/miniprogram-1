@@ -1,2 +1,19 @@
-<!--pages/search/search.js.wxml-->
-<text>pages/search/search.js.wxml</text>
+<view class="search-wrap">
+  <view class="search-row">
+    <icon type="search" size="18"></icon>
+    <input placeholder="搜索"></input>
+  </view>
+  <view class="cancelText">取消</view>
+</view>
+<view class="recSearchTitle">
+  <text class="searText">最近搜索</text>
+  <view class="recentSearch">
+    <view class="recentItem" wx:for="{{recentSearchList}}">{{item.searchTitle}}</view>
+  </view>
+</view>
+<view class="hotResearch">
+  <text class="searText">热门搜索</text>
+  <view class="recentSearch">
+    <view class="recentItem" wx:for="{{recentSearchList}}">{{item.searchTitle}}</view>
+  </view>
+</view>

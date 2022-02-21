@@ -1,14 +1,15 @@
 {
   "pages": [
-    "pages/incomResolvePlan/incomResolvePlan",
+    "pages/search/search",
 
     "pages/firstPage/firstPage",
     "pages/product/product",
     "pages/incomService/IncomService",
     "pages/mine/mine",
+    "pages/incomResolvePlan/incomResolvePlan",
+
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/search/search"
+    "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",

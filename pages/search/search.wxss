@@ -1,1 +1,51 @@
-/* pages/search/search.js.wxss */
+.search-wrap {
+  display: flex;
+  justify-content: space-between;
+  height: 70rpx;
+  padding: 30rpx
+}
+
+.search-row {
+  display: flex;
+  align-items: center;
+  background-color: #eaeaea;
+  border-radius: 30rpx;
+  padding-left: 10rpx;
+  flex: 4
+}
+
+.cancelText {
+  color: #E0DAD6;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recentSearch {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* padding: 30rpx; */
+  margin-top:30rpx;
+}
+
+.recentItem {
+  background-color: #eaeaea;
+  font-size: 30rpx;
+  padding:10rpx;
+  border-radius: 15rpx;
+  /* align-items:flex-end; */
+  margin-bottom: 20rpx;
+}
+.recSearchTitle{
+  padding: 30rpx;
+}
+.searText{
+  font-weight: 600;
+  font-size: 40rpx;
+}
+.hotResearch{
+  padding:30rpx
+}

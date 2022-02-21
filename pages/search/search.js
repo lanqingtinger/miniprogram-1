@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+recentSearchList:[{"searchTitle":"理财产品品品"},{"searchTitle":"理财"},{"searchTitle":"理财产品"},{"searchTitle":"理财产品"},{"searchTitle":"理财产品"},{"searchTitle":"理财产品"}]
   },
 
   /**
