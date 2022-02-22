@@ -24,7 +24,7 @@ z-index:1000;
 width:90%;
 }
 .mangerWrap{
-  padding:20rpx;
+  padding:60rpx 20rpx 40rpx 20rpx;
 }
 .proWrap{
   padding:20rpx;

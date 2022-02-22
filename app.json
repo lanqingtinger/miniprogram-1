@@ -1,13 +1,11 @@
 {
   "pages": [
-    "pages/search/search",
-
     "pages/firstPage/firstPage",
+    "pages/search/search",
     "pages/product/product",
     "pages/incomService/IncomService",
     "pages/mine/mine",
     "pages/incomResolvePlan/incomResolvePlan",
-
     "pages/index/index",
     "pages/logs/logs"
   ],
