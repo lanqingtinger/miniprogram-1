@@ -1,2 +1,24 @@
 <!--pages/product/product.wxml-->
-<text>pages/product/product.wxml</text>
+<!--pages/audiobook/audiobook.wxml-->
+<!--主盒子-->  
+<view class="product_container">  
+  <!--左侧栏-->  
+  <view class="nav_left">  
+    <van-sidebar active-key="{{ curIndex }}" bind:change="switchRightTab">  
+      <!--当前项的id等于item项的id，那个就是当前状态-->  
+      <!--用data-index记录这个数据在数组的下标位置，使用data-id设置每个item的id值，供打开2级页面使用-->  
+      <van-sidebar-item wx:for="{{navLeftItems}}" wx:key="id"  title="{{item.desc}}"  class="nav_left_items {{curNav == item.id ? 'active' : ''}}"  data-index="{{index}}" data-id="{{item.id}}"></van-sidebar-item >  
+    </van-sidebar>  
+  </view>  
+  <!--右侧栏-->  
+  <scroll-view class="nav_right" scroll-y="true">  
+    <!--如果有数据，才遍历项-->  
+    <view wx:if="{{navRightItems[curIndex]}}" class="list" scroll-y="true">  
+          <productList wx:for="{{navRightItems}}" wx:key="id" 
+          proTitle="{{item.title}}"  proDescrib="{{item.desc}}" type="{{item.type}}" proId="{{item.id}}">
+          </productList>
+    </view>
+    <!--如果无数据，则显示数据-->  
+    <view wx:else>暂无数据</view>  
+  </scroll-view>  
+</view>

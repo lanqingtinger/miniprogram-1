@@ -1,0 +1,70 @@
+page {
+    background-color: rgba(248, 248, 248, 100);
+}
+
+.box {
+    background: rgba(255, 255, 255, 100);
+    margin-top: 12px;
+    padding: 21px 14px;
+}
+
+.title {
+    color: rgba(16, 16, 16, 100);
+    font-size: 20px;
+    text-align: left;
+    font-family: PingFangSC-bold;
+   
+}
+.titleImg{
+    width:18px;
+    height:18px;
+}
+.listImg{
+    width:8px;
+    height:8px;
+}
+.desc {
+    color: rgba(8, 8, 8, 100);
+    font-size: 14px;
+    text-align: left;
+    font-family: PingFangSC-regular;
+    margin-top:12px;
+}
+
+.box2{
+    margin-top:12px;
+}
+.titlev2{
+    font-size: 16px;
+    font-weight: 600;
+}
+.keyTitle{
+    font-weight:600;
+    margin-top:12px;
+}
+.keyword {
+    display: inline-block;
+    width: 42px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 100);
+    text-align: center;
+    border: 1px solid rgba(36, 69, 234, 100);
+    font-size: 12px;
+    font-weight: 500;
+}
+.prodRecomBox{
+    text-align: center;
+    padding-bottom:40px;
+    margin-top:20px;
+}
+.prodCard{
+    text-align: left;
+    font-size:14px;
+    height:150px;
+}
+
+.van-grid-item__content{
+height:150px !important;
+}

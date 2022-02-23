@@ -1,0 +1,70 @@
+<scroll-view>
+  <van-image width="100%" height="200px" fit="fill" src='https://s4.ax1x.com/2022/02/11/HaV1zT.jpg' />
+  <view class="box">
+    <text class="title">{{proInfo.name}}</text>
+    <view class="desc"> {{proInfo.desc}}</view>
+    <view class="keyTitle">关键词：<view class="keyword" wx:for="{{proInfo.keywords}}">{{item}}</view>
+    </view>
+  </view>
+  <view class="box">
+    <image class="titleImg" src="../../icon/大拇指.png"></image>
+    <text class="title"> 产品优势</text>
+    <view class="desc" wx:for="{{proInfo.advantages}}">
+      <image class="listImg" src="../../icon/箭头.png"></image>{{item}}
+    </view>
+  </view>
+  <view class="box">
+    <image class="titleImg" src="../../icon/大拇指.png"></image>
+    <text class="title"> 适用对象</text>
+    <view class="desc">{{proInfo.fitCus}}</view>
+  </view>
+  <view class="box">
+    <image class="titleImg" src="../../icon/大拇指.png"></image>
+    <text class="title"> 相关案例</text>
+    <view class="desc">
+      <view class="box2">
+        <text class="titlev2">案例名称</text>
+        <view class="descv2">
+          {{proInfo.case.caseName}}
+        </view>
+      </view>
+      <view class="box2">
+        <text class="titlev2">案例背景</text>
+        <view class="descv2">
+          {{proInfo.case.caseBack}}
+        </view>
+      </view>
+      <view class="box2">
+        <text class="titlev2">企业需求</text>
+        <view class="descv2">
+          <view wx:for="{{proInfo.case.comNeed}}">
+            {{item}}
+          </view>
+        </view>
+      </view>
+      <view class="box2">
+        <text class="titlev2">解决方案</text>
+        <view class="descv2">
+          {{proInfo.case.solu}}
+        </view>
+      </view>
+
+    </view>
+  </view>
+  <view class="prodRecomBox">
+    <van-divider contentPosition="center" customStyle="color: rgba(16, 16, 16, 100);font-size: 20px;text-align: left;font-family: PingFangSC-bold; border-color: rgba(187, 187, 187, 100); font-size: 18px;">相关产品推荐</van-divider>
+    <view>
+      <van-grid column-num="2" gutter="{{ 20}}">
+        <van-grid-item class="prodCard" use-slot wx:for="{{ proInfo.recoProd}}" wx:key="id">
+        <recomProCard recoProInfo="{{item}}"></recomProCard>
+         
+        </van-grid-item>
+      </van-grid>
+    </view>
+  </view>
+  <view class="footer">
+  <button>添加收藏</button>
+  <button>生成宣传图</button>
+  <button>分享</button>
+  </view>
+</scroll-view>

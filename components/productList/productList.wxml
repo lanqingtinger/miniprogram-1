@@ -1,0 +1,5 @@
+<view  bindtap="checkProDetail" class="listItem" data-proId="{{proId}}">
+<view class="proTitle">{{proTitle}}</view>
+<image class="itemImg" mode="widthFix" src="{{type==='new'?'../../icon/new.png':'../../icon/hot.png'}}"/>
+<view class="proDescrib">{{proDescrib}}</view>
+</view>

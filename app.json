@@ -7,7 +7,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/search/search.js",
-    "pages/incomResolvePlan/incomResolvePlan"
+    "pages/incomResolvePlan/incomResolvePlan",
+    "pages/productInfo/productInfo"
   ],
   "window": {
     "backgroundTextStyle": "light",

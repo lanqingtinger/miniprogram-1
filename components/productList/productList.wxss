@@ -1,0 +1,26 @@
+.listItem{
+  border-radius: 5rpx;
+  margin-top:20rpx;
+  background: white;
+  padding: 12px 21px;
+}
+.itemImg{
+  width:22px;
+  height:14px;
+
+}
+.proTitle{
+    margin-bottom:10rpx;
+    color: #191919 ;
+font-size: 16px;
+text-align: left;
+font-family: PingFangSC-medium;
+display: inline-block;
+  }
+  .proDescrib{
+    color: rgba(81, 81, 81, 100);
+font-size: 14px;
+text-align: left;
+font-family: PingFangSC-regular;
+
+  }
