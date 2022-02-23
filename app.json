@@ -1,14 +1,18 @@
 {
   "pages": [
     "pages/firstPage/firstPage",
+    "pages/search/search",
     "pages/product/product",
     "pages/incomService/IncomService",
     "pages/mine/mine",
+    "pages/incomResolvePlan/incomResolvePlan",
     "pages/index/index",
+
     "pages/logs/logs",
     "pages/search/search.js",
     "pages/incomResolvePlan/incomResolvePlan",
     "pages/productInfo/productInfo"
+
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -38,12 +42,7 @@
         "pagePath":"pages/mine/mine",
         "text":"我的"
        }
-    ],
-    "usingComponents": {
-      "van-tabbar": "@vant/weapp/tabbar/index",
-      "van-tabbar-item": "@vant/weapp/tabbar-item/index"
-    }
+    ]
   },
-  "style": "v2",
   "sitemapLocation": "sitemap.json"
 }

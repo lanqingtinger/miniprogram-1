@@ -35,5 +35,11 @@ Component({
                 url: this.data.list[event.detail].pagePath,
             })
         }
-    }
+    },
+    ready: function () {
+        let query=wx.createSelectorQuery().in(this);
+        query.select(".tab-item").boundingClientRect(function(rect){
+            wx.setStorageSync('tabHeight', rect.height)
+        }).exec();     
+      },
 })

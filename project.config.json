@@ -5,6 +5,7 @@
     },
     "setting": {
         "urlCheck": true,
+<<<<<<< HEAD
         "scopeDataCheck": false,
         "coverView": true,
         "es6": false,
@@ -24,16 +25,56 @@
         "useApiHook": true,
         "useApiHostProcess": true,
         "showShadowRootInWxmlPanel": true,
+=======
+        "es6": false,
+        "enhance": true,
+        "postcss": true,
+        "preloadBackgroundData": false,
+        "minified": true,
+        "newFeature": false,
+        "coverView": true,
+        "nodeModules": false,
+        "autoAudits": false,
+        "showShadowRootInWxmlPanel": true,
+        "scopeDataCheck": false,
+        "uglifyFileName": false,
+        "checkInvalidKey": true,
+        "checkSiteMap": true,
+        "uploadWithSourceMap": true,
+        "compileHotReLoad": false,
+        "lazyloadPlaceholderEnable": false,
+        "useMultiFrameRuntime": true,
+        "useApiHook": true,
+        "useApiHostProcess": true,
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
+        },
+        "useIsolateContext": true,
+        "userConfirmedBundleSwitch": false,
+>>>>>>> dev
         "packNpmManually": false,
         "packNpmRelationList": [],
         "minifyWXSS": true,
         "disableUseStrict": false,
+<<<<<<< HEAD
         "ignoreUploadUnusedFiles": true,
         "minifyWXML": true
     },
     "compileType": "miniprogram",
     "libVersion": "2.17.0",
     "appid": "wx07fecee600feb709",
+=======
+        "minifyWXML": true,
+        "showES6CompileOption": false,
+        "useCompilerPlugins": false,
+        "ignoreUploadUnusedFiles": true
+    },
+    "compileType": "miniprogram",
+    "libVersion": "2.17.0",
+    "appid": "wx07aebaa41cb1b8b9",
+>>>>>>> dev
     "projectname": "miniprogram-1",
     "debugOptions": {
         "hidedInDevtools": []

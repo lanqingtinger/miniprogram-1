@@ -1,2 +1,40 @@
-<!--pages/incomResolvePlan/incomResolvePlan.wxml-->
-<text>pages/incomResolvePlan/incomResolvePlan.wxml</text>
+
+  <view-scrool  scroll-y="true" style="height:{{scrollHeight}}">
+  <!-- <view class="wrap"> -->
+    <view class="title">
+      <text>{{resolvePlan.title}}</text>
+    </view>
+    <!-- 白色区域 -->
+    <view class="mainText">
+      <view class="mainTop">
+        <!-- 第一段 -->
+        <view class="perface">{{resolvePlan.preface}}
+        </view>
+        <view class="outLine">{{resolvePlan.outLine}}</view>
+       <view class="figure" wx:for="{{resolvePlan.mainBody}}" wx:key="item">
+       <!-- <van-icon name="circle"  color="#1989fa"/> -->
+       <rich-text nodes="{{item.text}}"></rich-text>
+        </view>
+      </view>
+      <view class="mainBottom">
+      <plan wx:for="{{aboutPlan}}" imgSrc="{{item.imgSrc}}" planTheme="{{item.planTheme}}" planDescrib="{{item.planDescrib}}" wx:key="id"></plan>
+      </view>
+    </view>
+    <!-- </view> -->
+    <view style="height:{{zwHeight}}"></view>
+  </view-scrool>
+  <view class="bottomTool">
+  <view class="view-item star" bindtap="isSave">
+    <van-icon  name="star-o" />
+  <text wx:if="{{isSave}}">已收藏</text>
+  <text wx:else>添加收藏</text>
+  </view>
+  <view class="view-item share">
+
+  <!-- <van-button icon="share-o" class="buttonShare">转发分享</van-button> -->
+  <text>转发分享</text>
+  <van-icon name="share-o" />
+  <button class="hidButton" open-type="share"></button>
+  </view>
+
+  </view>

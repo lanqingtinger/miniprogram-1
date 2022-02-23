@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* pages/firstPage/firstPage.wxss */
 /* swiper {
   height: 421.5rpx;
@@ -81,3 +82,117 @@ width:90%
 .planList{
   margin-top:20rpx;
 }
+=======
+/* pages/firstPage/firstPage.wxss */
+/* swiper {
+  height: 421.5rpx;
+} */
+/* swiper-item image {
+  width: 100%;
+  height: 100%;
+} */
+/* .swiper-container{
+position: relative;
+} */
+.swiper-container .swiper{
+  /* 原图342*229 将swiper高度设置成与图片同高度是502.2rpx（750rpx/swiper高度=342/229），为了将点显示在下面设置大一些*/
+height: 502.2rpx;
+}
+.swiper-container .swiper .img{
+width: 100%;
+}
+.search{
+position:absolute;
+left:50%;
+transform: translateX(-50%);
+z-index:1000;
+width:90%;
+}
+.mangerWrap{
+  padding:60rpx 20rpx 40rpx 20rpx;
+}
+.proWrap{
+  padding:20rpx;
+}
+.title{
+  padding-left:30rpx;
+  font-weight: 700;
+  font-size:40rpx;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.managerInfo{
+  width:100%;
+  height:160rpx;
+  background-color: #F7F2E0;
+  border-radius: 20rpx;
+  margin:20rpx auto 0 auto;
+}
+.proContent{
+  width:100%;
+  /* height:300rpx; */
+}
+.produtCard{
+  /* width:100%; */
+  /* height:600px; */
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card{
+  width:47%;
+   height:239.625rpx;/*卡片长宽比4:3 */
+  background-color: #F7F2E0;
+  border-radius: 10rpx;
+  margin-top:20rpx;
+  display:flex;
+  align-items: center;
+}
+.proMore{
+ font-size: 30rpx;
+ color:#666;
+}
+/* .produtCard{ */
+  /* margin-top:20rpx; */
+/* } */
+.proSwiper{
+  height:519.25rpx;
+}
+.planTitle{
+  padding-left:30rpx;
+  font-weight: 700;
+  font-size:40rpx;
+}
+ .planWrap{ 
+   padding:20rpx; 
+ } 
+.planList{
+  margin-top:20rpx;
+}
+.managerInfo{
+display:flex;
+}
+.avatar{
+  width:33%
+}
+.connectInfo{
+  width:67%
+}
+.connectInfo{
+  padding:10px;
+}
+.managerName{
+  margin-bottom: 5px;
+}
+.namePhone{
+  margin-right:5px
+}
+.nameIdText{
+  font-size:16px;
+  font-weight: 600;
+}
+.workAdd{
+  font-size:14px;
+}
+>>>>>>> dev

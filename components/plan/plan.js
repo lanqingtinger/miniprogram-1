@@ -26,7 +26,7 @@ Component({
       let plan =e.currentTarget.dataset.plan;
       if(plan=="跨行资金解决方案"){
         wx.navigateTo({
-          url: '../../pages/incomResolvePlan/incomResolvePlan',
+          url: '../../pages/incomResolvePlan/incomResolvePlan?id='+plan,
         })
       }
     }

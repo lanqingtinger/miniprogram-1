@@ -2,7 +2,7 @@
 <view class="container">
   <view>
       <van-tabbar active="{{ active }}" bind:change="onChange">
-        <van-tabbar-item icon="wap-home-o">首页</van-tabbar-item>
+        <van-tabbar-item  class="van-tabbar-item" icon="wap-home-o">首页</van-tabbar-item>
         <van-tabbar-item icon="bag-o">产品</van-tabbar-item>
         <van-tabbar-item icon="balance-o">金融服务</van-tabbar-item>
         <van-tabbar-item icon="user-o">我的</van-tabbar-item>

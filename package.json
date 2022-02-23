@@ -15,8 +15,10 @@
     "url": "https://github.com/lanqingtinger/miniprogram-1/issues"
   },
   "homepage": "https://github.com/lanqingtinger/miniprogram-1#readme",
-  "description": "",
   "dependencies": {
-    "@vant/weapp": "^1.10.2"
-  }
+    "@vant/weapp": "^1.10.2",
+    "vant-weapp": "^0.5.29"
+  },
+  "keywords": [],
+  "description": ""
 }

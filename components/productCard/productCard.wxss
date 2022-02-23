@@ -2,5 +2,10 @@
  padding:30rpx;
 }
 .itemTitle{
-  margin-bottom: 10rpx;
+  margin-bottom: 20rpx;
+  font-size:14px;
+  font-weight: 600;
+}
+.itemTip{
+font-size:12px
 }

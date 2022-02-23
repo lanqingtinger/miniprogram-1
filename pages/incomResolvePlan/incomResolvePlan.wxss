@@ -1,1 +1,87 @@
-/* pages/incomResolvePlan/incomResolvePlan.wxss */
+.wrap {
+  /* position: absolute; */
+  /* top: 0;
+  left: 0; */
+  width: 100%;
+  height: 100%;
+  background: url("https://s4.ax1x.com/2022/02/11/HaV1zT.jpg");
+  background-size: cover;
+  /* z-index: -1 */
+}
+
+.mainText {
+  width: 90%;
+  height: 100%;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.title {
+  width: 95%;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  /* color: #fff; */
+}
+
+.outLine {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px
+}
+
+.figure {
+  margin-bottom: 20px;
+  font-size: 14px;
+  /* display: flex;
+  justify-content: flex-start; */
+}
+
+.perface {
+  font-size: 14px;
+
+}
+.bottomTool{
+  position:fixed;
+  bottom:0;
+  width:100%;
+  height:100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #CECDCD;
+
+
+}
+.view-item{
+  /* height:90rpx; */
+}
+.star{
+  width:30%;
+  height:80rpx;
+  display: flex;
+  align-items: center;
+justify-content: center;
+background-color: #CECDCD;
+}
+.share{
+  width:69%;
+  height:80rpx;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F1671D;
+  border-radius: 45rpx;
+  position: relative;
+}
+.hidButton{
+  position:absolute;
+  width:100%;
+  height:100%;
+  opacity: 0;
+}
